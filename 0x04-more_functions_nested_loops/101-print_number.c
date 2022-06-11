@@ -27,9 +27,9 @@ base10 = base10 * 10;
 number = n2;
 while (base10 > 1)
 {
-_putchar((number / base10) + '0');
+_putchar(number / base10);
 number = number % base10;
 base10 = base10 / 10;
 }
-_putchar((n2 % 10) + '0');
+_putchar(n2 % 10);
 }
