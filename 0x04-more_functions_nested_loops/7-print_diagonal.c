@@ -21,6 +21,7 @@ _putchar(92);
 _putchar(10);
 m++;
 }
-} else
+}
+else
 _putchar(10);
 }
