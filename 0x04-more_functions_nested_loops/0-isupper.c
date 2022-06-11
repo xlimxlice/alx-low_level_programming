@@ -1,20 +1,15 @@
-include "main.h"
+#include "main.h"
 /**
- * main - main function
+ * _isupper - function
  *
- * Return: End program
+ * @c: parameter
+ *
+ * Return: return value
  */
-int main(void)
+int _isupper(int c)
 {
-		char string[8] = "_putchar";
-		int n = 0;
-
-		while (n < 8)
-		{
-			_putchar(string[n])
-				++n;
-		}
-
-		_putchar(10);
-		return (0);
+if (c >= 65 && c <= 90)
+return (1);
+else
+return (0);
 }
